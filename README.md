@@ -51,6 +51,12 @@ And then execute:
 bundle exec rails db:migrate
 ```
 
+and then upload tables.csv & relations.csv via Web UI.
+
+![](https://gblobscdn.gitbook.com/assets%2F-M4KXP_B-JS37AxVENXr%2F-M56Qp7AVYLvGyO_egoS%2F-M56R8QvRsFmGapFdcZr%2Fimage.png?alt=media&token=c80fed1a-57b1-42bf-aa2f-797c8739c24c)
+
+more detail: https://help.drawerd.com/importing/importing-postgresql
+
 ## License
 
 The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).

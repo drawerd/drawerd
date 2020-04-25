@@ -1,5 +1,7 @@
-require "drawerd/version"
-require "drawerd/railtie" if defined?(Rails)
+# frozen_string_literal: true
+
+require 'drawerd/version'
+require 'drawerd/railtie' if defined?(Rails)
 
 module Drawerd
   class Error < StandardError; end

@@ -1,4 +1,5 @@
 require "drawerd/version"
+require "drawerd/railtie" if defined?(Rails)
 
 module Drawerd
   class Error < StandardError; end

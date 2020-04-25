@@ -2,6 +2,6 @@
 
 class Drawerd::Railtie < Rails::Railtie
   rake_tasks do
-    load 'tasks/drawerd.rake'
+    Drawerd.load_tasks
   end
 end

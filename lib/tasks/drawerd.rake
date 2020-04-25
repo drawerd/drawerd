@@ -92,6 +92,7 @@ class DrawerdDiagram < RailsERD::Diagram
 end
 
 namespace :drawerd do
+  desc "generate CSV file for drawerd services"
   task generate: ['erd:check_dependencies', 'erd:options', 'erd:load_models'] do
     say "Generating CSV for #{ActiveRecord::Base.descendants.length} models..."
 

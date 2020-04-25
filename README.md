@@ -16,6 +16,7 @@ Drawerd gem is a toolkit for the free online erd service drawerd.com. It use Rai
 * Free for OSS.
 
 and more detail: https://help.drawerd.com/
+Full Video: https://www.loom.com/share/e30d06ba299b43bc8b68f369b47f745a
 
 ## Preview
 

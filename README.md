@@ -49,7 +49,7 @@ And then execute:
 ## Usage
 
 ```
-bundle exec rails db:migrate
+bundle exec rake drawerd:generate
 ```
 
 and then upload tables.csv & relations.csv via Web UI.

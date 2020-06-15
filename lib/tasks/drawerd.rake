@@ -50,6 +50,7 @@ class DrawerdDiagram < RailsERD::Diagram
     des = relationship.destination
     source_model = source.model
     des_model = des.model
+    next if source_model.nil? || des_model.nil?
     source_table_name = source_model.table_name
     des_table_name = des_model.table_name
 
